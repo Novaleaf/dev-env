@@ -1,22 +1,20 @@
 # dev-env
-steps to setup a good typescript dev environment on windows.
+steps to setup a good typescript dev environment on windows, mac, or linux
 
 # dev environment 
 
-## windows
-
-1. nvm-windows https://github.com/coreybutler/nvm-windows
-  - install latest LTS ```nvm install 10.15.2```
-  - and latest v8 ```nvm install 8.15.1```
-2. git https://git-scm.com/   
-3. keybase https://keybase.io/ *(required for secstore subrepo access)*
+- nvm
+  - windows https://github.com/coreybutler/nvm-windows
+  - MAC/LINUX https://github.com/creationix/nvm
+- vscode https://code.visualstudio.com/
+- git https://git-scm.com/   
+- keybase https://keybase.io/ *(required only to access secure repos)*
    1. enable file+git capabilities
    2. reboot your computer
    3. join the novaleaf_keybase.ops team to access secstore subrepo
-4. sourcetree
-5. gcloud sdk
-6. vscode
-7. install important node packages
+- sourcetree
+- gcloud sdk *(required only if interacting with google cloud technologies)*
+- install important node packages
 	- shelljs to run scripts https://github.com/shelljs/shelljs
 		- ```npm install -g shelljs```  
 	- typescript
