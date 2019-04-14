@@ -27,10 +27,7 @@ steps to setup a good typescript dev environment on windows, mac, or linux
 - sourcetree
 - gcloud sdk *(required only if interacting with google cloud technologies)*
 - install important node packages
-	- shelljs to run scripts https://github.com/shelljs/shelljs
-		- ```npm install -g shelljs```  
-	- typescript
-  	- ```npm install -g shelljs typescript mocha node-dev```
+  	- ```npm install -g shelljs typescript mocha node-dev windows-build-tools yarn```
 - winscp https://winscp.net/eng/index.php
 - vnc viewer: http://tightvnc.net/download.php
   - used to connection to bastion instances
